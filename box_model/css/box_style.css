@@ -1,0 +1,40 @@
+body {
+    background-color: darkslategrey;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+#intro {
+    color: azure;
+}
+
+#content {
+    background-color: aquamarine;
+    border: 7px solid cornflowerblue;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 12px;
+    padding-bottom: 26px;
+}
+
+#P1 {
+    padding-top: 15px;
+    padding-bottom: 13px;
+}
+
+.quote {
+    margin-top: 5px;
+    margin-bottom: 14px;
+    padding-left: 77px;
+}
+
+.quoteCitation {
+    padding-left: 15px;
+    margin-top: 12px;
+}
+
+#footer {
+    color: floralwhite;
+}
