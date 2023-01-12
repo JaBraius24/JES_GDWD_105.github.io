@@ -1,0 +1,47 @@
+#contents {
+    padding-left: 5px;
+    border: 2px aquamarine solid;
+    background-color: cadetblue;
+    text-align: left;
+    float: right;
+    padding-right: 7px;
+    padding-bottom: 3px;
+
+}
+
+#intro {
+    margin-left: 5px;
+    text-align: center;
+}
+
+#sub-header1{
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: underline;
+    color: brown;
+}
+
+#title {
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+
+#main {
+    background-color: antiquewhite;
+}
+
+#Plot {
+    margin-top: 20px;
+}
+
+#information {
+    padding: 10px;
+}
