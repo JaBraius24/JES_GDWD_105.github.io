@@ -1,0 +1,55 @@
+body {
+    margin: 0px;
+    height: 2000px;
+}
+
+li {
+    display: inline;
+    padding: 18px;
+    
+    
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+a:hover{
+    letter-spacing: 3px;
+    color: darkgrey;
+    text-decoration: underline;
+    font-style: italic;
+
+}
+
+nav {
+    background-color: brown;
+    text-align: center;
+    padding: 13px;
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: sticky;
+    top: 0px;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+h2 {
+    text-align: center;
+}
+#introduction {
+    padding: 25px;
+    text-align: center;
+}
+
+footer {
+    background-color: brown;
+    color: aliceblue;
+    text-align: center;
+    
+}
