@@ -1,0 +1,55 @@
+.dropdown-menu {
+    position: absolute;
+    z-index: 90;
+    display: none;
+    background-color: orange;
+    border: 2px maroon solid;
+    padding-top: 2px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+body {
+    margin: 0px;
+    background-color: blanchedalmond;
+}
+
+nav {
+    align-items: center;
+    background-color: orange;
+    justify-content: center;
+    height: 20px;
+    margin: 0px;
+    padding: 15px;
+    border: 5px maroon solid;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+section {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: orange;
+    border: 5px maroon solid;
+    position: sticky;
+    bottom: 0px;
+    
+}
