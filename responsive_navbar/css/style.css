@@ -42,7 +42,7 @@ ul {
 }
 
 img {
-    width: 77%;
+    width: 47%;
 }
 
 h1 {
@@ -89,6 +89,10 @@ p {
 
 h3 {
     text-decoration: underline crimson;
+}
+
+section {
+    font-size: 200%;
 }
 
 /* Media Query */
