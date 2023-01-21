@@ -1,7 +1,7 @@
 .dropdown-menu {
     position: absolute;
     z-index: 90;
-    display: none;
+    opacity: 0%;
     background-color: orange;
     border: 2px maroon solid;
     padding-top: 2px;
@@ -13,7 +13,7 @@
 }
 
 .dropdown:hover .dropdown-menu {
-    display: block;
+    opacity: 1;
 }
 
 body {
@@ -42,7 +42,7 @@ ul {
 }
 
 img {
-    width: 475px;
+    width: 77%;
 }
 
 h1 {
@@ -61,17 +61,25 @@ article {
 }
 
 a {
-    color: firebrick;
+    color: floralwhite;
+}
+
+li :hover {
+    color: red;
+    text-decoration: underline;
+    font-style: italic;
+
 }
 
 footer {
     text-align: center;
     background-color: orange;
-    border: 5px maroon solid;
+    border: px maroon solid;
     position: sticky;
     bottom: 0px;
     height: 30px;
     align-items: center;
+    padding-top: 10px;
     
 }
 
@@ -99,6 +107,43 @@ h3 {
     }
 
     img {
-        width: 478px;
+        width: 68%;
+    }
+}
+
+/* Media Query 2 */
+@media (max-width: 545px)
+{
+    h1 {
+        color: azure;
+    }
+
+    nav {
+        background-color: darkred;
+        border: 5px goldenrod solid;
+    }
+
+    body {
+        background-color: indianred;
+    }
+
+    section {
+        color: aliceblue;
+    }
+    
+    .dropdown-menu {
+        color: azure;
+        background-color: darkred;
+        border: 2px goldenrod solid;
+    }
+
+    li :hover {
+        color: darkgoldenrod;
+    }
+
+    footer {
+        color: azure;
+        background-color: darkred;
+        border: 4px goldenrod solid;
     }
 }
