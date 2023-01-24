@@ -1,12 +1,14 @@
 table, th, tr, td {
-    border: 2px crimson solid;
+    border: 1px crimson solid;
     border-collapse: collapse;
     text-align: center;
     padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 th {
     background-color: goldenrod;
+    font-style: italic;
 }
 
 td:hover {
@@ -17,4 +19,8 @@ td:hover {
 tr:nth-child(even) {
     background-color: brown;
     color: darkorange;
+}
+
+tr:nth-child(odd) {
+    background-color: bisque;
 }
