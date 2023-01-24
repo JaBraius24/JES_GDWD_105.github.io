@@ -1,0 +1,23 @@
+table, thead, th, tr, td {
+    border: 2px violet solid;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 20px;
+}
+
+th {
+    background-color: rgb(182, 87, 195);
+}
+
+td:hover {
+    background-color: pink;
+    color: maroon;
+}
+
+tr {
+    background-color: blueviolet;
+}
+
+h1 {
+    color: crimson;
+}
