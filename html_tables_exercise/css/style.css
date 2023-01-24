@@ -1,0 +1,20 @@
+table, th, tr, td {
+    border: 2px crimson solid;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+}
+
+th {
+    background-color: goldenrod;
+}
+
+td:hover {
+    background-color: silver;
+    color: khaki;
+}
+
+tr:nth-child(even) {
+    background-color: brown;
+    color: darkorange;
+}

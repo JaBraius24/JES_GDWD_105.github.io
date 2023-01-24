@@ -1,0 +1,17 @@
+table, tr, th, td {
+    border: 3px blue solid;
+    padding: 10px;
+}
+
+thead {
+    background-color: aqua;
+}
+
+td:hover {
+    background-color: gray;
+}
+
+tr:nth-of-type(even) {
+    background-color: teal;
+    color: aliceblue;
+}
