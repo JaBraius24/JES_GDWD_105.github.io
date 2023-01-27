@@ -48,12 +48,21 @@ p {
 input {
     padding-top: 5px;
     padding-bottom: 5px;
-    margin-top: 5%;
+    margin-top: 3%;
+    padding-right: 80px;
 }
 
 select {
     text-align: center;
     margin-top: 2%;
+}
+
+input:valid {
+    border: solid blue 2px;
+}
+
+input:invalid {
+    border: solid maroon 2px;
 }
 
 @media screen and (max-width: 1200px) {
