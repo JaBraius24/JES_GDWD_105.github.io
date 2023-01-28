@@ -18,39 +18,43 @@
         <br>
         <br>
 
-        <fieldset>
-            <label for="select menu"> What can we help you with?</label>
-            <br>
-            <select name="select menu" id="select-menu">
-                <option name="selection" id="-selection" value="select what we can help you with" selected hidden>Select what we can help you with</option>
-                <option name="selection" id="selection-2" value="deck building suggestions">Deck List reccomendations</option>
-                <option name="selection" id="selection-3" value="deck building suggestions">Card Banlist/Limited</option>
-                <option name="selection" id="selection-4" value="deck building suggestions">Card Catalog</option>
-            </select>
-            <br>
-            <br>
-            <label for="name box">Username</label>
-            <br>
-            <input type="text" name="name box" id="name-box" minlength="4" maxlength="10">
-            <br>
-            <br>
-            <label for="name box">In-Game ID</label>
-            <br>
-            <input type="text" name="name box" id="name-box" minlength="4" maxlength="10">
-            <br>
-            <br>
-            <label for="email-box">Email</label>
-            <br>
-            <input type="email" name="email-box" id="email_box" >
-            <br>
-            <br>
-            <label for="txt-area">Message</label>
-            <br>
-            <textarea name="txt-area" id="txt-ara" placeholder="Insert Message/Descirtion Here"></textarea>
-            <br>
-            <br>
-            <input type="submit" name="send" id="-name-" value="Send">
-        </fieldset>
+        <div class="form">
+            <form method="POST" action="https://getform.io/f/ddacc111-43da-4ab1-9f96-c5f4b25bbd9d">
+                <fieldset>
+                    <label for="select_menu"> What can we help you with?</label>
+                    <br>
+                    <select name="select_menu" id="select-menu">
+                        <option name="selection" id="-selection" value="select what we can help you with" selected hidden>Select what we can help you with</option>
+                        <option name="selection" id="selection-2" value="deck building suggestions">Deck List reccomendations</option>
+                        <option name="selection" id="selection-3" value="deck building suggestions">Card Banlist/Limited</option>
+                        <option name="selection" id="selection-4" value="deck building suggestions">Card Catalog</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="name_box">Username</label>
+                    <br>
+                    <input type="text" name="name_box" id="name~box" minlength="4" maxlength="10">
+                    <br>
+                    <br>
+                    <label for="name_box">In-Game ID</label>
+                    <br>
+                    <input type="text" name="name_box" id="name-box" minlength="4" maxlength="10">
+                    <br>
+                    <br>
+                    <label for="email-box">Email</label>
+                    <br>
+                    <input type="email" name="email-box" id="email_box" >
+                    <br>
+                    <br>
+                    <label for="txt-area">Message</label>
+                    <br>
+                    <textarea name="txt-area" id="txt-ara" placeholder="Insert Message/Descirtion Here" cols="75" rows="15" minlength="15" maxlength="200"></textarea>
+                    <br>
+                    <br>
+                    <button type="submit" name="send" id="-name-" value="Send">Send</button>
+                </fieldset>
+            </form>
+        </div>
 
         
     </body>

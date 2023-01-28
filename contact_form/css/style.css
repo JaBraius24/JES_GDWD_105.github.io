@@ -1,27 +1,53 @@
 body {
     background-color: rgb(233, 233, 233);
+    align-items: center;
 }
 
 fieldset {
     background-color: white;
+    width: 600px;
+}
+
+form {
+   align-items: center;
 }
 
 div {
     text-align: center;
 }
 
+.form {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+
 #-name- {
     background-color: rgb(216, 49, 49);
     color: azure;
-    padding: 10px;
+    width: 70px;
+    height: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    box-shadow: 0px 0px 40px 00px rgba(75,75,75, 0.3);
 }
 
 #-name-:hover {
     background-color: darkred;
+    text-decoration: underline;
 }
 
 input {
     margin-top: 6px;
+    padding-right: 480px;
+    padding-bottom: 15px;
+
+}
+
+select {
+    padding-right: 406px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 input:valid {
@@ -40,12 +66,20 @@ select:invalid {
     border: goldenrod 1px solid;
 }
 
-textarea {
-    border: 2px crimson solid;
+#select-menu {
+    margin-top: 6px;
 }
 
 #txt-ara {
     margin-top: 6px;
+}
+
+#txt-ara:valid {
+    border: border 2px blueviolet solid;
+}
+
+#txt-ara:invalid {
+    border: border 2px crimson solid;
 }
 
 label {
