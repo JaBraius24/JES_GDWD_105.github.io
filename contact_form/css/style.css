@@ -6,6 +6,8 @@ body {
 fieldset {
     background-color: white;
     width: 600px;
+    box-shadow: 0px 0px 40px 00px rgba(75,75,75, 0.3);
+    padding: 15px;
 }
 
 form {
@@ -22,17 +24,17 @@ div {
     justify-content: center;
 }
 
-#-name- {
+#send {
     background-color: rgb(216, 49, 49);
     color: azure;
     width: 70px;
     height: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
-    box-shadow: 0px 0px 40px 00px rgba(75,75,75, 0.3);
+    
 }
 
-#-name-:hover {
+#send:hover {
     background-color: darkred;
     text-decoration: underline;
 }
@@ -40,7 +42,8 @@ div {
 input {
     margin-top: 6px;
     padding-right: 480px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 
 }
 
@@ -70,15 +73,16 @@ select:invalid {
     margin-top: 6px;
 }
 
-#txt-ara {
+#txt-area {
     margin-top: 6px;
+    padding-top: 5px;
 }
 
-#txt-ara:valid {
+#txt-area:valid {
     border: border 2px blueviolet solid;
 }
 
-#txt-ara:invalid {
+#txt-area:invalid {
     border: border 2px crimson solid;
 }
 

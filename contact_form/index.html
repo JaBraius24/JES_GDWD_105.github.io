@@ -23,7 +23,7 @@
                 <fieldset>
                     <label for="select_menu"> What can we help you with?</label>
                     <br>
-                    <select name="select_menu" id="select-menu">
+                    <select name="select_menu" id="select-menu" >
                         <option name="selection" id="-selection" value="select what we can help you with" selected hidden>Select what we can help you with</option>
                         <option name="selection" id="selection-2" value="deck building suggestions">Deck List reccomendations</option>
                         <option name="selection" id="selection-3" value="deck building suggestions">Card Banlist/Limited</option>
@@ -33,25 +33,25 @@
                     <br>
                     <label for="name_box">Username</label>
                     <br>
-                    <input type="text" name="name_box" id="name~box" minlength="4" maxlength="10">
+                    <input type="text" name="name_box" id="name_box" maxlength="20" required="6">
                     <br>
                     <br>
                     <label for="name_box">In-Game ID</label>
                     <br>
-                    <input type="text" name="name_box" id="name-box" minlength="4" maxlength="10">
+                    <input type="text" name="name_box" id="name_box" maxlength="15" required="15">
                     <br>
                     <br>
                     <label for="email-box">Email</label>
                     <br>
-                    <input type="email" name="email-box" id="email_box" >
+                    <input type="email" name="email-box" id="email-box" required="15" maxlength="25">
                     <br>
                     <br>
                     <label for="txt-area">Message</label>
                     <br>
-                    <textarea name="txt-area" id="txt-ara" placeholder="Insert Message/Descirtion Here" cols="75" rows="15" minlength="15" maxlength="200"></textarea>
+                    <textarea name="txt-area" id="txt-area" placeholder="Insert Message/Descirtion Here" cols="75" rows="15" minlength="15" maxlength="200"></textarea>
                     <br>
                     <br>
-                    <button type="submit" name="send" id="-name-" value="Send">Send</button>
+                    <button type="submit" name="send" id="send" value="Send">Send</button>
                 </fieldset>
             </form>
         </div>
