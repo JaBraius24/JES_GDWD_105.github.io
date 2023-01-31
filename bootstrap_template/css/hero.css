@@ -13,7 +13,7 @@
     margin-top: 0;
     font-size: 4em;
     text-shadow: 6px 1px 8px crimson;
-    border: 3px white solid;
+    border: 3px crimson dashed;
 }
 
 .hero-text h4 {
@@ -26,5 +26,7 @@
     font-family: 'Bebas Neue', cursive;
     font-weight: bold;
     font-style: italic;
-    color: aliceblue;
+    background-color: aliceblue;
+    padding-left: 205px;
+    padding-right: 205px;
 }
