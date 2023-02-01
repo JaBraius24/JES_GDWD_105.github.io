@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    background-color: maroon;
 }
 
 #content {
@@ -39,11 +40,17 @@ li {
 
 }
 
+a {
+    color: azure;
+}
+
 footer {
     text-align: center;
     color: azure;
     background-color: crimson;
     margin: 0px;
+    height: 80px;
+    align-content: center;
 }
 
 img {
