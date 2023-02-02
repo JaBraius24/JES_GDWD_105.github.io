@@ -35,7 +35,21 @@ img {
     width: 150%;
 }
 
+div {
+    justify-content: center;
+}
+
 .example {
    align-items: center;
     
+}
+
+.carousel-item img {
+    height: 600px;
+    
+}
+
+.carousel-1tem {
+    max-height: 80vh;
+    min-width: auto;
 }
