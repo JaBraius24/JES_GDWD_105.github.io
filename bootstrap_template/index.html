@@ -42,48 +42,78 @@
     </section>
     <!-- DAY 1 STOP HERE -->
     <main>
-      <!-- Image Grid Here -->
-      <div class="example">
-        <p>Illustration Examples</p>
+      <!-- Collapse Button -->
+      <div>
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Collapse</a>
       </div>
-      <div class="example">
-        <p>Photoshop Examples</p>
+      <!-- Image Grid Here -->
+
+      <div class="container text-center mt-4 collapse" id="collapseExample">
+        <div class="row gap-2 mx-auto">
+          <div class="col-lg-3 col-sm-12">
+            <img src="../bootstrap_template/assets/portfolio/japan.png" alt="" srcset="" class="w-100 img-fluid mt-4 mb-4">
+            <p>Nightime | Tokyo</p>
+          </div>
+          <div class="col-lg-3 col-sm-12">
+            <img src="../bootstrap_template/assets/portfolio/blossoms.png" alt="" srcset="" class="object-fit-cover border rounded img-fluid mt-4 mb-4">
+            <p>Cherryblossom River</p>
+          </div>
+          <div class="col-lg-3 col-sm-12">
+            <img src="../bootstrap_template/assets/portfolio/Yakiniku-2.jpeg" alt="" srcset="" class="object-fit-cover border rounded img-fluid mt-4 mb-4">
+            <p>Yakiniku | Japan</p>
+          </div>
+        </div>
+        <div class="row gap-2 m-4">
+          <div class="col-lg-3 col-sm-12">
+            <img src="../bootstrap_template/assets/portfolio/hawaiian.png" alt="" srcset="" class="w-100 img-fluid mt-4 mb-4">
+            <p>Palm Beach | Kauai</p>
+          </div>
+          <div class="col-lg-3 col-sm-12">
+            <img src="../bootstrap_template/assets/portfolio/Hibi-2.jpeg" alt="" srcset="" class="w-100 img-fluid mt-4 mb-4">
+            <p>Hibiscus Flower | Hawaii</p>
+          </div>
+          <div class="col-lg-3 col-sm-12">
+            <img src="../bootstrap_template/assets/portfolio/oahu.png" alt="" srcset="" class="w-100 img-fluid mt-4 mb-4">
+            <p>Oahu Island | Hawaiian Islands</p>
+          </div>
+        </div>
+        <div class="row gap-2 m-3">
+          <div class="col-lg-3 col-sm-12">
+            <img src="../bootstrap_template/assets/portfolio/Constellations.png" alt="" srcset="" class="w-100 img-fluid mt-4 mb-4">
+            <p>Milky Way | Galaxy</p>
+          </div>
+          <div class="col-lg-3 col-sm-12">
+            <img src="../bootstrap_template/assets/portfolio/Super-Nova.jpeg" alt="" srcset="" class="w-100 img-fluid mt-4 mb-4">
+            <p>Superova</p>
+          </div>
+          <div class="col-lg-3 col-sm-12">
+            <img src="../Practice/assets/Solar flare.jpeg" alt="" srcset="" class="w-100 img-fluid mt-4 mb-4">
+            <p>Solar Flare</p>
+          </div>
+        </div>
       </div>
 
-      <div class="container text-center mt-2">
-        <div class="row gap-2 m-3">
-          <div class="col col-lg-3 col-sm-12">
-            <img src="../bootstrap_template/assets/portfolio/japan.png" alt="" srcset="" class="w-100 img-fluid">
+      <!-- Image Carousel -->
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../bootstrap_template/assets/portfolio/blossoms.png" class="d-block w-100" alt="...">
           </div>
-          <div class="col col-lg-3 col-sm-12">
-            <img src="../bootstrap_template/assets/portfolio/blossoms.png" alt="" srcset="" class="w-100 img-fluid">
+          <div class="carousel-item active">
+            <img src="../Practice/assets/Galaxy.jpeg" class="d-block w-100" alt="...">
           </div>
-          <div class="col col-lg-3 col-sm-12">
-            <img src="../bootstrap_template/assets/portfolio/yakiniku.png" alt="" srcset="" class="w-100 img-fluid">
-          </div>
-        </div>
-        <div class="row gap-2 m-3">
-          <div class="col col-lg-3 col-sm-12">
-            <img src="../bootstrap_template/assets/portfolio/hawaiian.png" alt="" srcset="" class="w-100 img-fluid">
-          </div>
-          <div class="col col-lg-3 col-sm-12">
-            <img src="../bootstrap_template/assets/portfolio/hibiscus.png" alt="" srcset="" class="w-100 img-fluid">
-          </div>
-          <div class="col col-lg-3 col-sm-12">
-            <img src="../bootstrap_template/assets/portfolio/oahu.png" alt="" srcset="" class="w-100 img-fluid">
+          <div class="carousel-item active">
+            <img src="../responsive_navbar/assets/images/Bakugan_-1.png" class="d-block w-100" alt="...">
           </div>
         </div>
-        <div class="row gap-2 m-3">
-          <div class="col col-lg-3 col-sm-12">
-            <img src="../Practice/assets/Galaxy.jpeg" alt="" srcset="" class="w-100 img-fluid">
-          </div>
-          <div class="col col-lg-3 col-sm-12">
-            <img src="../Practice/assets/images/Supernova.jpeg" alt="" srcset="" class="w-100 img-fluid">
-          </div>
-          <div class="col col-lg-3 col-sm-12">
-            <img src="../Practice/assets/Solar flare.jpeg" alt="" srcset="" class="w-100 img-fluid">
-          </div>
-        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     <!-- General content cards: -->
 
@@ -140,6 +170,7 @@
       <a href="https://github.com/nicholasparryfirst/nicholasparryfirst.github.io"><p>MBP Educational Network on GitHub</p></a>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </body>

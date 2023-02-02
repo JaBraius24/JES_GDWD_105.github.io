@@ -33,11 +33,9 @@
 
 img {
     width: 150%;
-    height: 150px;
 }
 
 .example {
-    display: flex;
-    justify-content: center;
+   align-items: center;
     
 }
