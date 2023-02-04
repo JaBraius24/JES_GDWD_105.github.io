@@ -16,7 +16,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Lobster', cursive;;
+    font-family: 'Lobster', cursive;
 
 }
 
@@ -35,12 +35,19 @@
     color: #fff;
 }
 
-img {
-    width: 30%;
+.img-container {
+    height: 30vh;
 }
 
+.img-container img {
+    height: 100%;
+}
 div {
     justify-content: center;
+}
+
+div h5 {
+    text-align: center;
 }
 
 .example {
@@ -49,11 +56,30 @@ div {
 }
 
 .carousel-item img {
-    height: 600px;
+    height: 100%;
+    object-fit: cover;
     
 }
 
 .carousel-1tem {
-    max-height: 80vh;
-    min-width: auto;
+    height: 80vh;
+}
+
+li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+h5 {
+    font-family: 'Lobster', cursive;
+    font-size: xx-large;
+    text-decoration: underline;
+    background-color: #e1a177;
+    border: #000 2px solid;
+    box-shadow: 2px 3px 2px 1px rgb(0,0,0,0.3);
+}
+
+h5:hover {
+    color: #fff;
+    cursor: pointer
 }
