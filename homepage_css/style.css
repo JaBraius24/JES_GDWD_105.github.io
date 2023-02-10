@@ -1,0 +1,53 @@
+body {
+    background-color: aquamarine;
+    border: 5px rgb(14, 16, 190) solid;
+}
+
+.homepage-hero {
+    background-image: url(../homepage_images/sgr-s23xDAYQBCo-unsplash.jpg);
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 250%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.hero-text {
+    background-color: rgb(30, 121, 91);
+}
+
+.homepage-navigation {
+    align-items: center;
+    background-color: rgb(119, 195, 195);
+    justify-content: center;
+    height: auto;
+    margin: 0px;
+    padding: 5px;
+    border: 5px rgba(85, 87, 188, 0.807) solid;
+    position: sticky;
+    top: 0;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.project-display {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
