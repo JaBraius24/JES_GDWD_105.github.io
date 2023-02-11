@@ -1,3 +1,8 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+/* Homepage */
 body {
     background-color: aquamarine;
     border: 5px rgb(14, 16, 190) solid;
@@ -12,10 +17,15 @@ body {
     background-size: 250%;
     background-position: center;
     background-attachment: fixed;
+    text-align: center;
 }
 
 .hero-text {
-    background-color: rgb(30, 121, 91);
+    background-color: teal;
+    width: 45em;
+    text-shadow: 6px 1px 8px cyan;
+    font-family: 'Bokor', cursive;
+    font-size: 3em;
 }
 
 .homepage-navigation {
@@ -30,6 +40,7 @@ body {
     top: 0;
 }
 
+
 ul {
     display: flex;
     list-style: none;
@@ -43,8 +54,27 @@ ul {
 a {
     text-decoration: none;
     color: blue;
+    font-family: 'Bokor', cursive;
+    font-size: 2ch;
 }
 
+p {
+    font-family: 'Kanit', sans-serif;
+}
+
+label {
+    font-family: 'Bokor', cursive;
+}
+
+article {
+    font-family: 'Kanit', sans-serif;
+    padding: 15px;
+    text-align: center;
+}
+
+.projects {
+    text-align: center;
+}
 .project-display {
     display: flex;
     gap: 15px;
