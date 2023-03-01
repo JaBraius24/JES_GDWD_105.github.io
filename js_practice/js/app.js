@@ -18,10 +18,10 @@
 // total.style.color = "cyan"
 
 // Write a fuction to greet
-// Fuction Decleration
-function greet() {
-    alert("Hello");
-}
+// // Fuction Decleration
+// function greet() {
+//     alert("Hello");
+// }
 // Calling Fuction (Turn on Washing Machine)
 // greet();
 
@@ -33,3 +33,18 @@ function greet() {
 // // Save value in HTML
 // let result = square(525);
 // document.getElementById("demo").innerHTML = result;
+
+// Increase Winning Number by 5
+function increaseLargerNumber(x,y) {
+    // Save variable for result
+    let larger
+    if(x >= y) {
+        larger = x;
+    } else {
+        larger = y;
+    } 
+    // Return Larger Number by 5
+    return (larger + 5);
+}
+
+console.log(increaseLargerNumber(40,33));
