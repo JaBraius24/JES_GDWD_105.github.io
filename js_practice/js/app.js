@@ -34,17 +34,28 @@
 // let result = square(525);
 // document.getElementById("demo").innerHTML = result;
 
-// Increase Winning Number by 5
-function increaseLargerNumber(x,y) {
-    // Save variable for result
-    let larger
-    if(x >= y) {
-        larger = x;
-    } else {
-        larger = y;
-    } 
-    // Return Larger Number by 5
-    return (larger + 5);
+// // Increase Winning Number by 5
+// function increaseLargerNumber(x,y) {
+//     // Save variable for result
+//     let larger
+//     if(x >= y) {
+//         larger = x;
+//     } else {
+//         larger = y;
+//     } 
+//     // Return Larger Number by 5
+//     return (larger + 5);
+// }
+
+// console.log(increaseLargerNumber(40,33));
+
+// Make function show current date
+function displayDate() {
+    let demo = document.getElementById("demo");
+    demo.innerHTML = Date();
 }
 
-console.log(increaseLargerNumber(40,33));
+// Save Button to variable
+let btn = document.getElementById("btn");
+
+btn.addEventListener("click", displayDate().style.color = "crimson");
