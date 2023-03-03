@@ -49,13 +49,18 @@
 
 // console.log(increaseLargerNumber(40,33));
 
-// Make function show current date
-function displayDate() {
-    let demo = document.getElementById("demo");
-    demo.innerHTML = Date();
+// // Make function show current date
+// function displayDate() {
+//     let demo = document.getElementById("demo");
+//     demo.innerHTML = Date();
+// }
+
+// // Save Button to variable
+// let btn = document.getElementById("btn");
+
+// btn.addEventListener("click", displayDate().style.color = "crimson");
+
+function addClass() {
+    const demo = document.getElementById("demo");
+    demo.classList.toggle("blue-div");
 }
-
-// Save Button to variable
-let btn = document.getElementById("btn");
-
-btn.addEventListener("click", displayDate().style.color = "crimson");
