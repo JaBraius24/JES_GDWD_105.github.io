@@ -16,6 +16,13 @@ function openLightbox() {
 // Reference Images & Opening Lightbox
 let coffeeImage = document.getElementById("coffeeImage");
 coffeeImage.onclick = openLightbox;
+let cornImage = document.getElementById("cornImage");
+cornImage.onclick = openLightbox;
+let columbianImage = document.getElementById("columbianImage");
+columbianImage.onclick = openLightbox;
+let sunsetImage = document.getElementById("sunsetImage");
+sunsetImage.onclick = openLightbox;
+
 
 // Closing Lightbox + Trigger
 function closeLightbox() {
