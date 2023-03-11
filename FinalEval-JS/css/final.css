@@ -125,9 +125,9 @@ main {
 }
 
 .imageGrid img {
-    height: 30vh;
+    height: 35vh;
     width: auto;
-    size: cover;
+    size: auto;
     
 }
 
